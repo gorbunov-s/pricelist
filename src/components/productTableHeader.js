@@ -6,7 +6,7 @@ class ProductTableHeader extends Component {
 	<thead>
         <tr>
             <th>Name</th>
-            <th>Price</th>
+            <th style={{borderLeft: 'thin solid #ccc'}}>Price</th>
         </tr>
     </thead>
     );

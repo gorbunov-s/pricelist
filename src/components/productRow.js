@@ -12,9 +12,9 @@ class ProductRow extends Component {
       </span>;
 
     return (
-      <tr style={{border: 'thin solid #ccc'}}>
+      <tr>
         <td>{name}</td>
-        <td style={{fontWeight: 'bold'}}>{product.price}</td>
+        <td style={{fontWeight: 'bold', borderLeft: 'thin solid #ccc', paddingLeft: '10px'}}>{product.price}</td>
       </tr>
     );
   }
